@@ -1,3 +1,51 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "indent": [
+      "warn",
+      "tab",
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "off",
+      "single"
+    ],
+    "semi": [
+      "warn",
+      "always"
+    ],
+    "eqeqeq": [
+      "warn",
+      "always"
+    ],
+    "key-spacing": [
+      "warn", 
+      {
+        "align": {
+          "beforeColon": true,
+          "afterColon": true,
+          "on": "colon"
+        }
+      }
+    ],
+    "no-extra-semi": "warn",
+    "no-empty": "warn",
+    "no-console": "warn",
+    "no-unused-vars": "warn",
+    "react/jsx-uses-vars": "warn",
+    "react/jsx-uses-react": "warn",
+    "no-trailing-spaces": [
+      "warn",
+      {
+        "skipBlankLines": true,
+        "ignoreComments": true
+      }
+    ]
+  }
 }
